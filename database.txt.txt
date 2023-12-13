@@ -1,0 +1,12 @@
+This is "MySQL" Database.
+
+Queries : 
+	create database examuser;
+
+	use examuser;
+
+	create table user(rollno int(5),username varchar(15),password varchar(15),firstname varchar(15),lastname varchar(15));
+	
+	insert into user values(101,"manoj10","123456","Manoj","Modhale");
+
+	select * from user;
